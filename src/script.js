@@ -23,5 +23,3 @@ const highLightSelectedLink = (currentIndex) => {
   });
   links[currentIndex].classList.add("selectedLink");
 };
-
-export default onLinkClick;

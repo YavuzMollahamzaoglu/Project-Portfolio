@@ -67,6 +67,7 @@ body {
   display: flex;
   box-shadow: 0px 0px 15px 3px #1f1f11;
   overflow: hidden;
+  ;
 }
 
 main{
@@ -75,7 +76,7 @@ main{
 
 aside{
   width: var(--navbar-width);
-  height: 500px;
+  height: 700px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -114,13 +115,14 @@ li:hover{
 li::before{
   content: "";
   height: 100%;
-  position: absolute;
-  background-color: red;
+  position: absolute; 
+  background-color: #C75050;
   left:0;
   right: 0;
   width: 0%;
   z-index:-1;
-  transition: width 300ms ease-in-out;
+  transition: width 350ms ease-in-out;
+  margin-top: -15px;
 }
 
 li:hover::before{
@@ -128,8 +130,8 @@ li:hover::before{
   
 }
 .user-logo{
-  height: 150px;
-  width: 150px;
+  height: 170px;
+  width: 170px;
 }
 .user-logo img{
   height: 100%;
@@ -138,14 +140,15 @@ li:hover::before{
   border-radius: 50%;
 }
 img{
-  margin-left: 65px;
+  margin-left: 55px;
+  margin-top: -50px;
 }
 
 .card{
   padding: 30px;
-  height: 500px;
+  height: 700px;
   display: none;
-  width: calc(100vw - 500px);
+  width: calc(100vw - 620px);
   color: var(--color-light);
   transform: translateX(-100%);
 }
@@ -159,6 +162,7 @@ img{
 }
 .card .content{
   font-size: 1.5rem;
+  overflow-y: scroll;
 }
 
 .home{
@@ -174,7 +178,7 @@ img{
 }
 
 .contact{
-  background: rgb(15, 150 15);
+  background: rgb(15 150 15);
 }
 
 .selectedLink{
@@ -192,4 +196,20 @@ img{
     transform: translateX(0%);
     opacity: 1;
   }
+}
+
+li.list{
+    list-style: none;
+    padding: 10px 10px;
+    position: relative;
+    letter-spacing: 0px;
+    cursor: pointer;
+    
+    
+  
+}
+
+html {
+  scroll-behaviour: smooth;
+  
 }
