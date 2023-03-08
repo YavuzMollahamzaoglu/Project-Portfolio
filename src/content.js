@@ -1,6 +1,6 @@
 export const content = {
   english: {
-    title: "Personal Website",
+    title: <pre>Personal Website</pre>,
     home_page: "Homepage",
     about_content: "Hi am Yavuz Onur keniş is my brothe-in-law",
     home_content: "This is homepage as english",
@@ -15,7 +15,7 @@ export const content = {
     contact_list: "Contact Information and Social Media",
   },
   turkish: {
-    title: "Kişisel Web Sitesi",
+    title: <pre>Kişisel Web Sitesi</pre>,
     about_content:
       "Yavuz Mollahamzaoğlu Mersin/Akdeniz doğumlu  olup aslen Rizelidir. Eğitim hayatına 24 Kasım İlköğretim Okulunda başlayan Yavuz Mollahamzaoğlu İlköğretim ve Ortaöğrenimini bu okulda bitirmiştir. TEOG sınavda kazandığı puan ile Tevfık Sırrı Gür Anadolu Lisesine yerleşen Yavuz Mollahamzaoğlu 2 senelik bir sürecin ardından naklini EGEM Temel Lisesine aldırmıştır ve buradan mezun olmuştur. 2020 yılında girdiği YKS sınavından aldığı puanla Alanya Alladdin Keykubat Üniversitesi İngilizce Elektrik-Elektronik Mühendisliğini tercih eden Yavuz Mollahamzaoğlu şuanda Bialystok Politechnika üniversitesinde Erasmus+ programı kapsamında 1 dönemlik süre ile burslu eğitim görmektedir. Yavuz Mollahamzaoğlu genel olarak Front-End ve Back-End alanlarında kendini geliştirmekte olsada Elektrik devreleri ve Quantum Fiziğiyle ilgilenmektedir.",
     home_content:

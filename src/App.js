@@ -45,13 +45,79 @@ function App() {
         </Button>
       )}
 
-      <h1>{title}</h1>
+      <h1 style={{ minWidth: 150, paddingLeft: 8 }}>{title}</h1>
       {
-        <p style={{ marginTop: 50, marginLeft: -180 }}>
+        <p
+          style={{
+            marginTop: 50,
+            marginLeft: -180,
+            paddingRight: 30,
+            marginRight: 20,
+            textAlign: "center",
+          }}
+        >
           <u>
             <b>
               <i>
-                <pre>Academic Timeline</pre>
+                <pre style={{ marginRight: 20 }}>Academic Timeline</pre>
+                <span>
+                  <ul>
+                    <li
+                      style={{
+                        listStyleType: "revert",
+                        fontSize: 15,
+                        marginTop: 20,
+                        marginRight: 20,
+                      }}
+                    >
+                      24 Kasım İlköğretim Okulu
+                    </li>
+                    <li
+                      style={{
+                        listStyleType: "revert",
+                        fontSize: 15,
+                        marginTop: 20,
+                        marginRight: 20,
+                      }}
+                    >
+                      Tevfik Sırrı Gür Anadolu Lisesi
+                    </li>
+                    <li
+                      style={{
+                        listStyleType: "revert",
+                        fontSize: 15,
+                        marginTop: 2,
+                        marginRight: 20,
+                      }}
+                    >
+                      EGEM Temel Lisesi
+                    </li>
+                    <li
+                      style={{
+                        listStyleType: "revert",
+                        fontSize: 15,
+                        marginTop: 20,
+                        marginRight: 20,
+                      }}
+                    >
+                      <a href="https://www.alanya.edu.tr/">
+                        Alanya Alaaddin Keykubat Üniversitesi(2020-?)
+                      </a>
+                    </li>
+                    <li
+                      style={{
+                        listStyleType: "revert",
+                        fontSize: 15,
+                        marginTop: 20,
+                        marginRight: 20,
+                      }}
+                    >
+                      <a href="https://pb.edu.pl/">
+                        Politechnika Bialystok(2022-2023)
+                      </a>
+                    </li>
+                  </ul>
+                </span>
               </i>
             </b>
           </u>
@@ -89,14 +155,26 @@ function App() {
               {content[selectedLanguage].about_content}
             </div>
           </div>
-          <div class="card resume">
+          <div class="card resume" style={{ overflow: "scroll" }}>
             <div class="title">{content[selectedLanguage].project_title}</div>
             <div class="content">
               {content[selectedLanguage].project_content}
               <h1 style={{ marginTop: 25, color: "red" }}>React JS:</h1>
-              <li className="list">Rick and Morty App</li>
-              <li className="list">Country List</li>
-              <li className="list">Personal Website</li>
+              <li className="list">
+                <a href="https://github.com/YavuzMollahamzaoglu/rick-and-morty-app">
+                  Rick and Morty App
+                </a>
+              </li>
+              <li className="list">
+                <a href="https://github.com/YavuzMollahamzaoglu/country-list-app">
+                  Country List
+                </a>
+              </li>
+              <li className="list">
+                <a href="https://github.com/YavuzMollahamzaoglu/personal-website">
+                  Personal Website
+                </a>
+              </li>
             </div>
           </div>
           <div class="card contact">
@@ -109,9 +187,15 @@ function App() {
               </li>
               <li className="list">Telefon: +90537463925</li>
               <h1 style={{ marginTop: 25, color: "yellow" }}> Sosyal Medya:</h1>
-              <li className="list">GitHub: YavuzMollahamzaoglu</li>
-              <li className="list">İnstagram: mollahamzaoğlu</li>
-              <li className="list">LetterBox: mollahamzaoglu</li>
+              <li className="list">
+                <a>GitHub: YavuzMollahamzaoglu</a>
+              </li>
+              <li className="list">
+                <a>İnstagram: mollahamzaoğlu</a>
+              </li>
+              <li className="list">
+                <a>LetterBox: mollahamzaoglu</a>
+              </li>
             </div>
           </div>
         </main>

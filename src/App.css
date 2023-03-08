@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 :root{
-  --navbar-width: 300px;
+  --navbar-width: 32 0px;
   --color-light: #fff;
 }
 
@@ -52,6 +52,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  
 }
 
 body {
@@ -72,6 +73,7 @@ body {
 
 main{
   overflow: hidden;
+  width: auto;
 }
 
 aside{
@@ -89,6 +91,8 @@ aside{
   flex-direction: column;
   gap: 30px;
   width: 100%;
+  width: 220px;
+  
 }
 
 nav,ul {
@@ -140,8 +144,9 @@ li:hover::before{
   border-radius: 50%;
 }
 img{
-  margin-left: 55px;
+  margin-left: 35px;
   margin-top: -50px;
+  
 }
 
 .card{
@@ -212,4 +217,17 @@ li.list{
 html {
   scroll-behaviour: smooth;
   
+}
+
+a:hover{
+  color: pink;
+}
+
+a:visited{
+  color: brown;
+}
+
+div{
+  text-indent: 20px;
+  text-align: left;
 }
