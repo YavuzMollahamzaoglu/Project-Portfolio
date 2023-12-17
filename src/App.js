@@ -7,8 +7,7 @@ import { useEffect, useState } from "react";
 import { content } from "./content";
 import { Button } from "antd";
 import { Helmet } from "react-helmet";
-//SAYFADA AŞŞAĞIYA GİTTİKTEN SONRA BTK MSAYFA İÇİ LİNKTEN VİDEOYU İZLE ÖRNEĞİ YAP
-//CV İNDİR BUTONU EKLE
+
 
 function App() {
   const [selectedLanguage, setSelectedLanguage] = useState("english");
